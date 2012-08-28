@@ -1,0 +1,1 @@
+function movecontent(){winW=document.documentElement.clientWidth;var a=document.getElementById("side");var b=document.getElementById("bodytext");if(winW<220+748+10){if(a){a.style.left='0'}if(b){b.style.left='220px';b.style.width=(winW-220)+'px'}}else{var c=Math.floor((winW-220-748-10)/2);if(a){a.style.left=c+'px'}if(b){b.style.left=(c+220)+'px';b.style.width='748px'}}}
